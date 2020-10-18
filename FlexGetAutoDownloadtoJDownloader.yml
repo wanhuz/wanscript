@@ -1,0 +1,16 @@
+tasks:
+  auto-downloadanime task:
+    html:
+      url: #Url of website to monitor new file#
+      username: wahwa
+      password: wahwa1996
+      title_from: url
+    regexp:
+      accept:
+        - .*.mkv
+      rest: reject
+    exec: 
+      - echo text={{url}} >> "C:/USER/WanHuz/AppData/Local/JDownloader 2.0/folderwatch/{{title}}.crawljob"
+      - echo downloadFolder="#DownloadPath#/{{title}} >> "/path/to/folderwatch/{{title}}.crawljob"
+      - echo deepAnalyseEnabled=true >> "C:/Users/USER/AppData/Local/JDownloader 2.0/folderwatch/{{title}}.crawljob"
+      - echo autoStart=TRUE
