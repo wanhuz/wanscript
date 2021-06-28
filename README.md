@@ -1,5 +1,5 @@
 # wanscript
-This is my personal collection of useful script for Windows desktop
+This is my personal collection of useful script for Windows desktop/Linux server
 
 1. KanjiTomo - To be used with Kanjitomo.net program for OCR Japanese-English dictionary. Make it convenient to auto-toggle OCR, change input to JP/ENG, etc
 2. FlexGetAutoJDownloader - Flexget script. Add it to Flexget's config.yml (read its docs). To be used with Jdownloader if you have seedbox. If a new file is downloaded into a particular directory, this script will monitor it and add it to Jdownloader. Can also trigger autodownload.
