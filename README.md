@@ -7,3 +7,4 @@ This is my personal collection of useful script for Windows desktop
 4. Plex - Script that is somewhat related to plex. 
 - Matroskasubmerge.py - merge .mkv file with its subtitle .ass file. 
 - Plexrefresh.py - refresh Plex library. Useful if you want your Plex library to refresh under 5 minute, since Plex set minimum refresh to be 5 minutes. 
+5. switchApptoOtherMonitor - My finest creation. Quickly move an application or folder or whatever to other monitor by one press of button.
